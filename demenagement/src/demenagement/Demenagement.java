@@ -4,7 +4,9 @@ import java.util.Scanner;
 public class Demenagement {
 	public static int readCartons() {
 		Scanner input = new Scanner(System.in);
-		return input.nextInt();
+		int nbCartons = input.nextInt();
+		input.close();
+		return nbCartons;
 	}
 	
 	public static void main(String[] args) {
